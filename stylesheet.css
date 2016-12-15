@@ -1,0 +1,40 @@
+body {
+    background: grey;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#NavBar{
+    background: black;
+    padding: 7px;
+    color: white;
+    font: bold;
+}
+
+a {
+    color: white;
+}
+
+#MainDiv{
+    background: grey;
+    display: inline-block;
+    text-align: center;
+    width: 85%;
+    height: 800px;
+    padding: 0px;
+}
+#SideBar{
+    background: green;
+    clear: both;
+    float: right;
+    width: 15%;
+    height: 800px;
+    padding: 0px;
+    text-align: center;  
+}
+
+#BigBox{
+    background: black;
+    color: green;
+    margin: 50px;
+}
