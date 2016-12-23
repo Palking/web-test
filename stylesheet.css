@@ -43,6 +43,11 @@ MAINPAGE RELATED
     padding: 20px 40px 20px 40px; 
     background-color: #474747;
     border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#MainDiv .textContainer a{
+    color: white;
 }
 /*
 #######################
