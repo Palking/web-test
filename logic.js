@@ -1,7 +1,8 @@
 var checker = true;
 
 $("document").ready(function(){
-    $("#SideBar").load("sidebar.html"); 
+    $("#SideBar").load("sidebar.html");
+    $("#NavBar").load("header.html"); 
 });
 
 

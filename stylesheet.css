@@ -11,7 +11,7 @@ body {
     font: bold;
 }
 
-a {
+#NavBar a {
     color: white;
 }
 
@@ -26,26 +26,38 @@ a {
     height: 100vh; /* 100% from browser (body) height*/
     padding: 0px;
 }
+
+/*
+#######################
+SIDEBAR RELATED
+#######################
+*/
 #SideBar{
-    background: green;
+    background: #5C8AF7;
     position: fixed;
     top: 0;
     right: 0;
-    /*clear: both;
-    float: right;
-    width: 15%;
-    */
-    /*
-    height: 800px;
-    */
     height: 100vh;
+    width: 150px;
     padding: 0px;
     text-align: center;  
+    border: 3px solid black;
+}
+#SideBar #ProfilePic{
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border: 4px solid grey;
+    border-radius: 2px;
 }
 
+
+/* test object*/
 #BigBox{
     background: black;
-    color: green;
+    color: white;
     margin: 50px;
-    height: 1200px;
+    height: 200px;
 }
