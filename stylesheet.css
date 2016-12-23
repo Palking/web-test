@@ -4,6 +4,11 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*
+#######################
+HEADER RELATED
+#######################
+*/
 #NavBar{
     background: black;
     padding: 7px;
@@ -15,18 +20,30 @@ body {
     color: white;
 }
 
+/*
+#######################
+MAINPAGE RELATED
+#######################
+*/
+
 #MainDiv{
-    background: grey;
+    /*background: grey;*/ /*REDUNDANT*/
     display: inline-block;
     text-align: center;
-    width: 85%;
-    /*
-    height: 800px;
-    */
-    height: 100vh; /* 100% from browser (body) height*/
+    /*width: 100%;*/
+    width: calc(100% - 156px);
+    /*height: calc(100vh - ; /* 100% from browser (body) height*/
     padding: 0px;
 }
 
+#MainDiv .textContainer{
+    display: inline-block;
+    text-align: left;
+    width: auto;
+    padding: 20px 40px 20px 40px; 
+    background-color: #474747;
+    border-radius: 10px;
+}
 /*
 #######################
 SIDEBAR RELATED
