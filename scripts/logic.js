@@ -1,8 +1,8 @@
 var checker = true;
-
+//load templates
 $("document").ready(function(){
-    $("#SideBar").load("sidebar.html");
-    $("#NavBar").load("header.html"); 
+    $("#SideBar").load("template/sidebar.html");
+    $("#NavBar").load("template/header.html"); 
 });
 
 
