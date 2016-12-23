@@ -1,31 +1,31 @@
 <!Doctype html>
 <html>
     <head>
-        <title>Lets go.</title>
+        <title>PalWeb - Contact</title>
         <link rel="stylesheet" href="stylesheet.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="logic.js"></script>
     </head>
     <body>
         <header>
-            <div id="NavBar">
-                <a href="index.html">Home</a>
-                <a href="http://www.wikipedia.com">FAQ</a>
-                <a href="contact.html">Contact</a>                
-            </div>
+            <div id="NavBar"></div>
         </header>
         <div id="Page">
             <div id="MainDiv">
                 <h1 id="MainHead"> Mail me!</h1>
                 <form>
-                    <input id="inputField" type="text">default</form>
+                    <p>
+                        Your Name:
+                        <input id="inputName" type="text"></form>
+                    </p>
+                    <p>
+                        Your Message:
+                        <input id="inputMsg" type="text"></form>
+                    </p>
                     <button onclick="DoStuff();" id="Submit">Submit</button>
                 </form>
-                <div id="BigBox">i got some real content</div>
             </div>
-            <div id="SideBar">
-                This is my SideBar
-            </div>
+            <div id="SideBar"></div>
         </div>
     </body>
 </html>
