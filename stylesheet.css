@@ -54,7 +54,7 @@ SIDEBAR RELATED
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: calc(100vh - 6px);
     width: 150px;
     padding: 0px;
     text-align: center;  
