@@ -20,15 +20,25 @@ a {
     display: inline-block;
     text-align: center;
     width: 85%;
+    /*
     height: 800px;
+    */
+    height: 100vh; /* 100% from browser (body) height*/
     padding: 0px;
 }
 #SideBar{
     background: green;
-    clear: both;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /*clear: both;
     float: right;
     width: 15%;
+    */
+    /*
     height: 800px;
+    */
+    height: 100vh;
     padding: 0px;
     text-align: center;  
 }
@@ -37,4 +47,5 @@ a {
     background: black;
     color: green;
     margin: 50px;
+    height: 1200px;
 }
