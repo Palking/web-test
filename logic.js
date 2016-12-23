@@ -1,5 +1,11 @@
 var checker = true;
 
+$("document").ready(function(){
+    $("#SideBar").load("sidebar.html"); 
+});
+
+
+
 function DoStuff() {
 //    var field = document.getElementById("MainHead");
 //    field.innerHTML ="nice";
@@ -12,14 +18,4 @@ function DoStuff() {
         $("#BigBox").fadeTo("slow", 1)
         checker = true;
     }
-
 }
-$("<input/>", {
-  id: "permissionsInput",
-  name: "permissions",
-  type: "checkbox", 
-  click: function(){
-    update();
-  },
-  checked: "checked"
-}).appendTo("#MainDiv");
