@@ -20,7 +20,10 @@ a {
     display: inline-block;
     text-align: center;
     width: 85%;
+    /*
     height: 800px;
+    */
+    height: 100vh; /* 100% frombrowser height*/
     padding: 0px;
 }
 #SideBar{
