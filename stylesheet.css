@@ -37,13 +37,21 @@ MAINPAGE RELATED
 }
 
 #MainDiv .textContainer{
-    display: inline-block;
+    /*display: inline-block;*/ /*if smaller boxes are desirable*/
+    display: block;
     text-align: left;
     width: auto;
-    padding: 20px 40px 20px 40px; 
+    padding: 5px 40px 5px 40px; 
     background-color: #474747;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#MainDiv .textContainer p{
+    display: none;
 }
 
 #MainDiv .textContainer a{
