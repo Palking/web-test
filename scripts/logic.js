@@ -23,8 +23,6 @@ $("document").ready(function(){
     });
 });
 
-
-
 function DoStuff() {
 //    var field = document.getElementById("MainHead");
 //    field.innerHTML ="nice";

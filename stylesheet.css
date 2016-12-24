@@ -50,6 +50,10 @@ MAINPAGE RELATED
     margin-right: 50px;
 }
 
+#MainDiv .textContainer img{
+    height: 50px;
+}
+
 #MainDiv .textContainer p{
     display: none;
 }
