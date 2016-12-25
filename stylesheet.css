@@ -36,6 +36,12 @@ MAINPAGE RELATED
     padding: 0px;
 }
 
+/*
+#######################
+ RELATED
+#######################
+*/
+
 #MainDiv .textContainer{
     /*display: inline-block;*/ /*if smaller boxes are desirable*/
     display: block;
@@ -53,9 +59,13 @@ MAINPAGE RELATED
 #MainDiv .textContainer img{
     height: 50px;
 }
-
+/* css changes for new textcontainer design*/
 #MainDiv .textContainer p{
-    display: none;
+    /*display: none;*/
+}
+
+#MainDiv .textContainer>.head {
+    background-color: blue;
 }
 
 #MainDiv .textContainer a{

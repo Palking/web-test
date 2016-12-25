@@ -1,0 +1,45 @@
+#MainDiv{
+    /*background: grey;*/ /*REDUNDANT*/
+    display: inline-block;
+    text-align: center;
+    /*width: 100%;*/
+    width: calc(100% - 156px);
+    /*height: calc(100vh - ; /* 100% from browser (body) height*/
+    padding: 0px;
+}
+
+/*
+#######################
+ RELATED
+#######################
+*/
+
+#MainDiv .textContainer{
+    /*display: inline-block;*/ /*if smaller boxes are desirable*/
+    display: block;
+    text-align: left;
+    width: auto;
+    padding: 5px 40px 5px 40px; 
+    background-color: #474747;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#MainDiv .textContainer img{
+    height: 50px;
+}
+/* css changes for new textcontainer design*/
+#MainDiv .textContainer p{
+    /*display: none;*/
+}
+
+#MainDiv .textContainer>.head {
+    background-color: blue;
+}
+
+#MainDiv .textContainer a{
+    color: white;
+}
