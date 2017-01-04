@@ -35,8 +35,18 @@ TEXTCONTAINER RELATED
 
 /* get rid of margin from the heading*/
 #MainDiv .textContainer>.head>h3{
+    display: inline-block;
     margin: 0px;
     padding: 5px 40px 5px 40px; 
+}
+
+#MainDiv .textContainer>.head>.containerInfo{
+    margin-top: 8px;
+    margin-right: 15px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 12px;
 }
 
 #MainDiv .textContainer .content{
