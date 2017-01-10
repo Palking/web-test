@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="stylesheet.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="scripts/logic.js"></script>
+        <script type="text/javascript" src="scripts/textContainer.js"></script>    
     </head>
     <body>
         <header>
@@ -13,19 +14,16 @@
         <div id="Page">
             <div id="MainDiv">
                 <h1 id="MainHead"> What is this website all about?</h1>
-                <div class="textContainer">
-                    <h3>The start</h3>
+                <div class="textContainer" data-heading="The start">
                     <p>You wonder why this <strong>pointless</strong> website is even online? Great question, really.</p>
                     <p>Well, for now it is just a way for me, the programer, to get some experience in web development.</p>
                     <p>It might, however, turn into a personal site for my CV or maybe even a game! </p>
                 </div>
-                <div class="textContainer">
-                    <h3>Development - Diary</h3>
+                <div class="textContainer" data-heading="Development - Diary">
                     <p>If you are interrested how this website was made from zero to where it is right now, <br>
                         you can <a href="https://github.com/Palking/web-test"> check it out on Github! </a></p>
                 </div>
-                                <div class="textContainer">
-                    <h3>Filler and test</h3>
+                <div class="textContainer" data-heading="Filler and test">
                     <p>This one is a reaaally long line thats supposed
                         to go beyond the page limit. The idea is to test dynamic behavior and
                         linewrapping. this is propably enugh for now.
