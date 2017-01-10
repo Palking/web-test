@@ -1,6 +1,6 @@
-    //###########################
-    //Expandable textContainers
-    //########################### 
+    //#########################//
+    //Expandable textContainers//
+    //#########################// 
 
 $("document").ready(function(){
         /*
@@ -14,7 +14,7 @@ $("document").ready(function(){
                             + " failed. No proper data-heading attribute provided.");
                 continue;
             }
-            console.log(heading);
+            //console.log(heading);
             //is jquerys way cleaner/faster? might rework
             var newContent = containers[i].innerHTML;
             containers[i].innerHTML = "";

@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="stylesheet.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="scripts/logic.js"></script>
+        <script type="text/javascript" src="scripts/textContainer.js"></script>    
     </head>
     <body>
         <header>
@@ -13,8 +14,7 @@
         <div id="Page">
             <div id="MainDiv">
                 <h1 id="MainHead"> My projects</h1>
-                <div class="textContainer">
-                    <h3>This website</h3>
+                <div class="textContainer" data-heading="This website">
                     <p> I made this site simply to toy around with various aspects of web-development
                         to give myself some practice in the HTML/CSS/JS stack as well as some jquery.
                         I might add a C# web API based backend in the near future in order to learn 
@@ -31,8 +31,7 @@
                             <img src="content/img/github-logo.png" alt="Github"></a>
                     </p>
                 </div>
-                <div class="textContainer">
-                    <h3>Tic-Tac-Toe</h3>
+                <div class="textContainer" data-heading="Tic-Tac-Toe">
                     <p>
                         This was my very first, small project. 
                     </p>
@@ -46,8 +45,7 @@
                         project and it felt like a breakthrough for me.
                     </p>
                 </div>
-                <div class="textContainer">
-                    <h3>Top-Down-Tiles</h3>
+                <div class="textContainer" data-heading="Top-Down-Tiles">
                     <p>
                         The idea behind the game was to create a small, 2D game using C# with the MonoDevelop
                         framework. <br>
@@ -68,8 +66,7 @@
                             <img src="content/img/github-logo.png" alt="Github"></a>
                     </p>
                 </div>
-                <div class="textContainer">
-                    <h3>myCookbook</h3>
+                <div class="textContainer" data-heading="myCookbook">
                     <p>
                         My main 'non-game'-project.
                     </p>
@@ -90,9 +87,7 @@
                         a android application for a more convinient experience as well as a dashboard using my 
                         pi for the kitchen.
                      </p>
-                     <p>Github link coming soon. </p>
-                        
-                           
+                     <p>Github link coming soon. </p>        
                 </div> 
             </div>
             <div id="SideBar"></div>
